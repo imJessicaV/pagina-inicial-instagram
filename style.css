@@ -29,6 +29,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
+    filter: drop-shadow(2px 2px 2px #d87093);
 }
 
 .instagram-phone img{
@@ -53,14 +54,17 @@ body{
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #d87093;
 }
 
 .group:nth-child(1){
     min-height: 19rem;
 }
 
-.instatram-logo{
+.instagram-logo{
     height: 3rem;
+    filter: drop-shadow(2px 2px 2px grey);
 }
 
 .profile-photo{
@@ -69,6 +73,8 @@ body{
     align-items: center;
     border-radius: 50%;
     overflow: hidden;
+    box-shadow: 0 0 15px plum;
+    border: 1px solid rgb(187, 135, 187);
 }
 
 .profile-photo img{
@@ -80,6 +86,7 @@ body{
     color: white;
     padding: 8px;
     border-radius: 4px;
+    box-shadow: 2px 2px 2px #0295e6;
 }
 
 .instagram-logout{
@@ -114,9 +121,13 @@ body{
 }
 
 .app-download{
+    display: flex;
     height: 3rem;
     width: 10rem;
     background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px #d87093;
 }
 
 .app-download:nth-child(1){
@@ -124,6 +135,31 @@ body{
 }
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
+}
+.return{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.return img{
+    box-shadow: 0 0 10px #0295f6;
+    border-radius: 40px 10px;
+}
+.back{
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    width: auto;
+    background-color: #0295f6 ;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #0295e6;
+    font-size: 16px;
+    text-align: center;
 }
 
 @media(max-width:1024px){
